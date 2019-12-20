@@ -4,7 +4,7 @@ const jwt = require('jwt-simple');
 const jwtCheck = require('express-jwt');
 const passport = require('../config/passport')
 const config = require('../config/config')
-const User = require('../models/User');
+const User = require('../models/user');
 
 /* GET users listing. */
 router.get('/', (req, res) => {
